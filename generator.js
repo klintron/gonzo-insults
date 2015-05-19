@@ -1,6 +1,7 @@
 var Pronoun = [
     'You',
-    'That'];
+    'That',
+	'What a'];
     
 var Adjective1 = [
     ' vicious',
@@ -30,14 +31,15 @@ var Adjective2 = [
     ' drooling',
     ' rabbit-punching',
     ' knee-crawling',
-    ' thieving'
-    ];
+    ' thieving',
+	' weird'];
 
 var Noun = [
     ' bastard',
     ' swine',
     ' pig',
-    ' pile of albino warts'
+    ' pile of albino warts',
+	' geek'
     ];
 
 var randomPronoun = Math.floor(Math.random()* Pronoun.length);    
