@@ -10,7 +10,6 @@ var Adjective1 = [
     ' fiendish',
     ' filthy',
     ' rotten',
-    ' demented',
     ' treacherous',
     ' heinous',
     ' scurvy',
@@ -19,26 +18,39 @@ var Adjective1 = [
     ' hamwit',
     ' filthy',
     ' foetid',
-    ' cheapjack',
-    ' hellish'];
+	' awful',
+	' hateful',
+    ' hellish',
+	' foul',
+	' bilious',
+	' hideous'];
 
 var Adjective2 = [
     ' festering',
     ' stinking',
     ' crazed',
     ' deranged',
+    ' demented',
     ' soul-ripping',
     ' drooling',
     ' rabbit-punching',
     ' knee-crawling',
     ' thieving',
-	' weird'];
+	' cheapjack',
+	' twisted',
+	' backwoods',
+	' diseased',
+	' weird',
+	' black-hearted',
+	' incurably violent'];
 
 var Noun = [
     ' bastard',
     ' swine',
-    ' pig',
-    ' pile of albino warts',
+    ' pig farmer',
+    ' pile of rhino warts',
+	' used car salesman',
+	' nazi',
 	' geek'
     ];
 
