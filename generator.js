@@ -1,8 +1,9 @@
 var Pronoun = [
     'You',
     'That',
-	'What a'];
-    
+    'What a'
+];
+
 var Adjective1 = [
     ' vicious',
     ' rancid',
@@ -18,12 +19,13 @@ var Adjective1 = [
     ' hamwit',
     ' filthy',
     ' foetid',
-	' awful',
-	' hateful',
+    ' awful',
+    ' hateful',
     ' hellish',
-	' foul',
-	' bilious',
-	' hideous'];
+    ' foul',
+    ' bilious',
+    ' hideous'
+];
 
 var Adjective2 = [
     ' festering',
@@ -36,32 +38,33 @@ var Adjective2 = [
     ' rabbit-punching',
     ' knee-crawling',
     ' thieving',
-	' cheapjack',
-	' twisted',
-	' backwoods',
-	' diseased',
-	' weird',
-	' black-hearted',
-	' incurably violent'];
+    ' cheapjack',
+    ' twisted',
+    ' backwoods',
+    ' diseased',
+    ' weird',
+    ' black-hearted',
+    ' incurably violent'
+];
 
 var Noun = [
     ' bastard',
     ' swine',
     ' pig farmer',
     ' pile of rhino warts',
-	' used car salesman',
-	' nazi',
-	' geek'
-    ];
+    ' used car salesman',
+    ' nazi',
+    ' geek'
+];
 
-var randomPronoun = Math.floor(Math.random()* Pronoun.length);    
+var randomPronoun = Math.floor(Math.random() * Pronoun.length);
 
-var randomAdjective1 = Math.floor(Math.random()* Adjective1.length);         
+var randomAdjective1 = Math.floor(Math.random() * Adjective1.length);
 
-var randomAdjective2 = Math.floor(Math.random()* Adjective2.length);         
+var randomAdjective2 = Math.floor(Math.random() * Adjective2.length);
 
-var randomNoun = Math.floor(Math.random()* Noun.length);         
+var randomNoun = Math.floor(Math.random() * Noun.length);
 
-var Insult = Pronoun[randomPronoun].concat(Adjective1[randomAdjective1],Adjective2[randomAdjective2],Noun[randomNoun]);
+var Insult = Pronoun[randomPronoun].concat(Adjective1[randomAdjective1], Adjective2[randomAdjective2], Noun[randomNoun]);
 
 document.write(Insult);
