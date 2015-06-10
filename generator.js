@@ -1,3 +1,5 @@
+function generateInsult() {
+
 var Pronoun = [
     'You',
     'That',
@@ -65,6 +67,7 @@ var randomAdjective2 = Math.floor(Math.random() * Adjective2.length);
 
 var randomNoun = Math.floor(Math.random() * Noun.length);
 
-var Insult = Pronoun[randomPronoun].concat(Adjective1[randomAdjective1], Adjective2[randomAdjective2], Noun[randomNoun]);
+var insult = Pronoun[randomPronoun].concat(Adjective1[randomAdjective1], Adjective2[randomAdjective2], Noun[randomNoun]);
 
-document.write(Insult);
+document.getElementById("insult-space").innerText = insult;
+}
