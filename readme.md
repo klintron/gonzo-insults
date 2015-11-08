@@ -4,7 +4,7 @@ This is a simple HTML/JavaScript page that generates Hunter S. Thompson inspired
 
 ## Examples
 
-You can see it in action [here]( http://technoccult.net/wp-content/uploads/gonzo-insults.html) you treacherous rabbit-punching pig.
+You can see it in action [here]( http://klintron.neocities.org/gonzo-insults.html) you treacherous rabbit-punching pig.
 
 ## Motivation
 
